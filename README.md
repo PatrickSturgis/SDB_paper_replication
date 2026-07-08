@@ -8,6 +8,12 @@ This repository contains data and analysis scripts for research examining mode e
 - `outputs_LPM/`: Generated figures and Excel files with results
 - `SDB_paper_replication.Rproj`: R Project file
 
+## Data provenance
+`data/GC_experiment.dta` (6,749 respondents, 154 variables) is a subset of the
+master experiment extract held in the parent Gambling_experiment repository
+(174 variables), trimmed to the variables used in these analyses. Records are
+identical across the two files.
+
 ## Getting Started
 1. Open `SDB_paper_replication.Rproj` in RStudio
 2. Run outcome-specific scripts or use the Run.R script to run them all
